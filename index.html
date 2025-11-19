@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>Amplop dan Balon</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="sky">
+        <!-- Sun -->
+        <div class="sun"></div>
+
+        <!-- Clouds -->
+        <div class="cloud cloud1"></div>
+        <div class="cloud cloud2"></div>
+        <div class="cloud cloud3"></div>
+
+        <!-- Birds -->
+        <div class="bird bird1">
+            <span></span><span></span>
+        </div>
+        <div class="bird bird2">
+            <span></span><span></span>
+        </div>
+
+        <!-- Balloon and Envelope -->
+        <div class="balloon-envelope-container" id="balloonContainer">
+            <div class="balloon-group">
+                <div class="balloon-with-string">
+                    <div class="balloon white"></div>
+                    <svg class="balloon-string" viewBox="0 0 100 300" preserveAspectRatio="none">
+                        <path class="string-path" d="M 50 0 Q 30 50, 50 100 T 50 200 T 50 300" 
+                              fill="none" stroke="#666" stroke-width="2"/>
+                    </svg>
+                </div>
+                <div class="balloon-with-string">
+                    <div class="balloon red"></div>
+                    <svg class="balloon-string" viewBox="0 0 100 300" preserveAspectRatio="none">
+                        <path class="string-path" d="M 50 0 Q 70 50, 50 100 T 50 200 T 50 300" 
+                              fill="none" stroke="#666" stroke-width="2"/>
+                    </svg>
+                </div>
+                <div class="balloon-with-string">
+                    <div class="balloon red"></div>
+                    <svg class="balloon-string" viewBox="0 0 100 300" preserveAspectRatio="none">
+                        <path class="string-path" d="M 50 0 Q 35 50, 50 100 T 50 200 T 50 300" 
+                              fill="none" stroke="#666" stroke-width="2"/>
+                    </svg>
+                </div>
+                <div class="balloon-with-string">
+                    <div class="balloon red"></div>
+                    <svg class="balloon-string" viewBox="0 0 100 300" preserveAspectRatio="none">
+                        <path class="string-path" d="M 50 0 Q 65 50, 50 100 T 50 200 T 50 300" 
+                              fill="none" stroke="#666" stroke-width="2"/>
+                    </svg>
+                </div>
+                <div class="balloon-with-string">
+                    <div class="balloon white"></div>
+                    <svg class="balloon-string" viewBox="0 0 100 300" preserveAspectRatio="none">
+                        <path class="string-path" d="M 50 0 Q 40 50, 50 100 T 50 200 T 50 300" 
+                              fill="none" stroke="#666" stroke-width="2"/>
+                    </svg>
+                </div>
+            </div>
+            
+            <div class="envelope" id="envelope">
+                <div class="envelope-back">
+                    <div class="envelope-body"></div>
+                    <div class="heart">❤</div>
+                </div>
+                <div class="letter">
+                    Untuk Seseorang yang Spesial ❤
+                </div>
+                <div class="envelope-flap"></div>
+            </div>
+        </div>
+
+        <!-- Hearts Container -->
+        <div class="hearts-container" id="heartsContainer"></div>
+
+        <!-- Full Screen Letter -->
+        <div class="fullscreen-letter" id="fullscreenLetter">
+            <div class="letter-paper">
+                <div class="letter-header">Untuk Seseorang yang Spesial ❤</div>
+                <div class="letter-content">
+                    hayieeeee sayaanngg,
+                    <br><br>
+                    ihhhh pacall aku udah 18 tahun aja tapi kayak bociel hihihihii.
+                    <br><br>
+                    Maaf ya buat hadianya cuman begini doang aku lagi gabisa kasih apa apa dulu di hari ulang tahun kamu.
+                    <br><br>
+                    Aku udah berjanji sama diri aku kalau ada kesempatan atau enda di hari ulta aku, aku akan kasih hadiah special dari aku.
+                    <br><br>
+                    Ingin tahu lebih banyak tentangku? Kunjungi <a href="https://www.instagram.com" target="_blank">Instagram ku</a>, tonton <a href="https://www.youtube.com" target="_blank">video favorit ku</a>, dengarkan <a href="https://www.spotify.com" target="_blank">playlist spesial</a>, atau lihat <a href="https://github.com" target="_blank">proyek-proyek ku</a>.
+                    <br><br>
+                    Dengan cinta dan kasih sayang,
+                    <br>
+                    Untukmu ❤
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
